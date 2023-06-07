@@ -13,7 +13,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script:
+- script: |
     echo 'Say hello'
     git --version
 
